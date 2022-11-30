@@ -53,5 +53,5 @@ function addMessage() {
 // 02_ Eventos para enviar (emit) y recibir con (on) mensajes
 socket.on('message', data => {
     render(data)
-    alertMsj(data)
+    alerMsj(data)
 })
